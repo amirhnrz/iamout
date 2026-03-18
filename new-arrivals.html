@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Arrival | I AM OUT</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="I AM OUT Logo">
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="new-arrivals.html">Customisation</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <a href="cart.html" class="cart-icon">
+                 <i class="fa-solid fa-cart-shopping"></i>
+                 <span class="cart-count">0</span>
+                 </a>
+        </ul>
+    </nav>
+</header>
+
+<section class="product-custom">
+
+<div class="product-container">
+
+    <!-- PRODUCT IMAGE -->
+    <div class="product-image">
+        <img id="hoodieImage" src="hoodie-nude.png" alt="Hoodie">
+    </div>
+
+    <!-- PRODUCT DETAILS -->
+    <div class="product-details">
+
+        <h1>Custom Hoodie</h1>
+        <p class="price">£50</p>
+
+        <!-- COLOR SELECTION -->
+        
+       <h3>Choose Color</h3>
+
+<div class="color-options">
+
+<span class="color nude active" data-color="nude"></span>
+
+<span class="color green" data-color="green"></span>
+
+<span class="color lightblue" data-color="lightblue"></span>
+
+<span class="color gray" data-color="gray"></span>
+
+</div>
+
+        <!-- SIZE SELECTION -->
+        <h3>Select Size</h3>
+        <div class="sizes">
+            <span>S</span>
+            <span class="active-size">M</span>
+            <span>L</span>
+            <span>XL</span>
+        </div>
+
+        <!-- CUSTOM TEXT -->
+        <h3>Customize Your Hoodie</h3>
+        <input type="text" id="customText" placeholder="Write your text...">
+
+        <!-- ADD TO CART -->
+        <button class="arrival-btn" onclick="addCustomHoodie()">
+            Add Custom Hoodie to Cart
+        </button>
+
+    </div>
+
+</div>
+
+</section>
+
+<script src="new-arrivals.js"></script>
+
+<script src="cart-count.js"></script>
+<script src="new-arrivals.js"></script>
+</body>
+</html>

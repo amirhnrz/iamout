@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop | I AM OUT</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #0b0f1a;">
+
+<!-- NAVBAR -->
+<header>
+   
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="I AM OUT Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <li><a href="new-arrivals.html">Customisation</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <a href="cart.html" class="cart-icon">
+                 <i class="fa-solid fa-cart-shopping"></i>
+                 <span class="cart-count">0</span>
+                 </a>
+        </ul>
+    </nav>
+</header>
+
+<!-- SHOP SECTION -->
+<section class="shop">
+    <h1 style="color: white;">Shop Collection</h1>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img src="Subject (4).png" alt="T-Shirt">
+            <h3>It Is What It Is Hoodie</h3>
+            <p>£50</p>
+            <button onclick="addToCart('It Is What It Is Hoodie', 50)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Subject (2).png" alt="Hoodie">
+            <h3>Lost Hoodie</h3>
+            <p>£50</p>
+            <button onclick="addToCart('Lost Hoodie', 50)">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Subject (3).png" alt="Jacket">
+            <h3>Fuphoria Hoodie</h3>
+            <p>£50</p>
+            <button onclick="addToCart('Fuphoria Hoodie', 50)">Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+<script src="cart-count.js"></script>
+<script src="shop.js"></script>
+</body>
+</html>

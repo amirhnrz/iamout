@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | I AM OUT</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="I AM OUT Logo">
+        </div>
+
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="new-arrivals.html">Customisation</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <a href="cart.html" class="cart-icon">
+                 <i class="fa-solid fa-cart-shopping"></i>
+                 <span class="cart-count">0</span>
+                 </a>
+        </ul>
+    </nav>
+</header>
+
+<!-- CONTACT SECTION -->
+<section class="contact">
+
+    <div class="contact-left">
+        <h1>Get in Touch</h1>
+        <p>
+            Questions, collaborations, or support?  
+            Drop us a message and we’ll get back to you.
+        </p>
+
+        <div class="contact-info">
+            <p><strong>Email:</strong> support@urbanwear.com</p>
+            
+            <p class="instagram">
+                <a href="https://www.instagram.com/_imout.official?igsh=bG1kdTBlNnR3dDF2" target="_blank">
+                    <i class="fa-brands fa-instagram"></i> @IAMOUT
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <div class="contact-right">
+        <form id="contactForm">
+
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <textarea id="message" placeholder="Your Message"></textarea>
+
+            <button type="submit">Send Message</button>
+            <p class="form-status"></p>
+
+        </form>
+    </div>
+
+</section>
+<script src="cart-count.js"></script>
+<script src="contact.js"></script>
+</body>
+</html>
